@@ -22,6 +22,7 @@
     "expo-font": "^12.0.9",
     "expo-image": "^1.12.13",
     "expo-media-library": "^16.0.4",
+    "expo-splash-screen": "~0.27.5",
     "expo-status-bar": "~1.12.1",
     "i": "^0.3.7",
     "install": "^0.13.0",
@@ -35,8 +36,7 @@
     "react-native-tab-view": "^3.5.2",
     "react-native-vector-icons": "^10.1.0",
     "react-native-view-shot": "^3.8.0",
-    "zustand": "^4.5.5",
-    "expo-splash-screen": "~0.27.5"
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
