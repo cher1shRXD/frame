@@ -1,0 +1,86 @@
+import { StyleSheet } from "react-native";
+
+export const style = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "flex-start",
+    alignItems: "center",
+    backgroundColor: "#1b1b1b",
+  },
+  title: {
+    width: "100%",
+    paddingHorizontal: 10,
+    height: 40,
+    fontSize: 30,
+    color: "white",
+    fontFamily: "Logo",
+    marginTop: 70,
+    marginBottom:15
+  },
+  frameWrap: {
+    width: 300,
+    height: 420,
+    backgroundColor: "white",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom:20
+  },
+  frame: {
+    width: 270,
+    height: 380,
+    backgroundColor: "white",
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: 20,
+    shadowColor: "#ccc",
+    shadowOffset: { width: 1, height: 1 },
+    shadowOpacity: 10,
+    shadowRadius: 5,
+    elevation: 5,
+  },
+  image: {
+    width: 120,
+    aspectRatio: "1/1.2",
+    marginBottom: 6,
+  },
+  signWrap: {
+    width: 270,
+    height: 50,
+    display: "flex",
+    justifyContent: "center",
+    paddingHorizontal: 10,
+  },
+  buttonWrap: {
+    width: "100%",
+    height: 70,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  button: {
+    width: 300,
+    height: 50,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 10,
+    backgroundColor: "#E2BFD9",
+  },
+  removeWrap: {
+    width: "100%",
+    height: 30,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  remove: {
+    fontSize: 15,
+    color: "gray",
+    fontFamily: "Pretendard-Light",
+  },
+});
