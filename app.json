@@ -1,24 +1,30 @@
 {
   "expo": {
-    "name": "frame",
-    "slug": "frame",
+    "name": "FRAME",
+    "slug": "FRAME",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#1b1b1b"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cher1shrxd.FRAME"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1b1b1b"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.cher1shRXD.FRAME"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +38,11 @@
           "recordAudioAndroid": true
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "50ec4bf5-8047-488a-902d-449016f8e9fb"
+      }
+    }
   }
 }
